@@ -9,7 +9,7 @@ services:
     environment:
       - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
       - DB_HOST=db
-      - DB_NAME=devdev
+      - DB_NAME=devdb
       - DB_USER=devuser
       - DB_PASS=${POSTGRES_PASSWORD}
     ports:
